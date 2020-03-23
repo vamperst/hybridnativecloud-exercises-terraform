@@ -28,9 +28,10 @@
    ![img/terraformInstall](img/terraformInstall.png)
 16. Caso queira ver o script que acabou de executar você pode navegar utilizando o IDE até o arquivo como na imagem:
    ![img/navegarArquivo.png](img/navegarArquivo.png)
+17. Execute o comando `python3 -m pip install --user virtualenv` para instalar o ambiente virtual python.
 
     ## >>> As etapas a seguir devem ser executadas a cada 3 horas pois as chaves sofrem alteração <<<
-17. No seu navegador vá a pagina do labs.vocareum.com por onde você entrou na sua conta. 
+18. No seu navegador vá a pagina do labs.vocareum.com por onde você entrou na sua conta. 
    ![](img/vocareum.png)
 18. Clique em 'Account Details'
 19. Clique em 'Show' e copie o conteudo que aparece em destaque
