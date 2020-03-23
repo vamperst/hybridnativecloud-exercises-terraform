@@ -22,7 +22,7 @@
     ![img/installserverless.png](img/installserverless.png)
 11. Execute o comando `sudo apt  install jq -y` para instalar o software que irá nos ajudar a ler e manipular Jsons no terminal
 12. Execute o comando `git clone https://github.com/vamperst/fiap-devops-orquestracao.git` para clonar o repositório com os exercicios.
-13. Execute o comando `cd fiap-devops-orquestracao/` para entrar na pasta criada pelo git
+13. Execute o comando `cd ~/environment/hybridnativecloud-exercises-terraform/` para entrar na pasta criada pelo git
 14. Execute o comando `cd Setup\ e\ Configuração/` para entrar na pasta com os scripts de Configuração.
 15. Para instalar o terraform execute o comando `sh installTerraform.sh`
    ![img/terraformInstall](img/terraformInstall.png)
@@ -39,10 +39,10 @@
    ![](img/preferencescloud9.png)
 21. Escolha 'AWS SETTINGS' no menu lateral e desabilite a função 'AWS managed temporary credentials'
     ![](img/credentialsDisable.png)
-22. De volta ao terminal do Cloud9 utilize o comando `rm ~/.aws/credentials` 
+22. De volta ao terminal do Cloud9 utilize o comando `rm -f ~/.aws/credentials` 
 23. Utilize o comando `nano ~/.aws/credentials` para atribuir valores ao arquivo
 24. Cole o conteudo da credential que copiou do vocareum
-25. Salve com pressionando as teclas 'Control(CTRL) + X' e após 'Y'
+25. Salve com pressionando as teclas 'Control(CTRL) + X' e após 'Y' + enter
 
 
     
