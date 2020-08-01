@@ -38,7 +38,7 @@
     jq -r ".KeyMaterial" > ~/.ssh/fiap-lab.pem   
    ```
 
-    ## >>> As etapas a seguir devem ser executadas a cada 3 horas pois as chaves sofrem alteração <<<
+## >>> As etapas a seguir devem ser executadas a cada 3 horas pois as chaves sofrem alteração <<<
 19. No seu navegador vá a pagina do labs.vocareum.com por onde você entrou na sua conta. 
    ![](img/vocareum.png)
 20. Clique em 'Account Details'
