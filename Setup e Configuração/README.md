@@ -37,6 +37,7 @@
     | \
     jq -r ".KeyMaterial" > ~/.ssh/fiap-lab.pem   
    ```
+19. Execute o comando `chmod 400 ~/.ssh/fiap-lab.pem` para que a chave tenha a permissão correta.
 
 ## >>> As etapas a seguir devem ser executadas a cada 3 horas pois as chaves sofrem alteração <<<
 19. No seu navegador vá a pagina do labs.vocareum.com por onde você entrou na sua conta. 
